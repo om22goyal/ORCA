@@ -1,0 +1,14 @@
+.graph {
+  height: 100%; /* Ensures full height */
+  width: 100%; /* Ensures full width */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart {
+  width: 100%; /* Allow full width */
+  height: 100%; /* Allow full height */
+}

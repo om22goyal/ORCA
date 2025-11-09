@@ -1,0 +1,58 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Make sure everything fits in one page */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scrolling */
+  background: #121212; /* Dark background color */
+  color: white; /* Ensure text is visible */
+}
+
+/* Main app layout */
+.dashboard {
+  height: 100vh; /* Ensures full viewport height */
+  width: 100vw; /* Ensures full viewport width */
+
+  display: flex;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 250px; /* Fixed sidebar width */
+  height: 100vh; /* Full height */
+  background: #1e1e1e; /* Dark sidebar */
+  border-right: 2px solid #444; /* Adds border */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Ensure main content fits */
+.main-content {
+  flex-grow: 1; /* Takes remaining space */
+  padding: 20px;
+  overflow: hidden; /* Prevents scrolling */
+}
+
+/* Live Map + Graphs */
+.data-section {
+  height: 60vh; /* Ensure enough height */
+  width: 100%;
+  padding: 10px;
+  gap: 20px; /* Space between Map & Graph */
+
+  display: flex;
+  align-items: stretch;
+}
+
+.data-section > * {
+  flex: 1; /* Each child takes equal space */
+}

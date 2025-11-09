@@ -1,0 +1,99 @@
+/* Status Panel Container */
+.statusPanel {
+  background: #2a2a2a;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  max-width: 1550px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Robot Details */
+.robotDetails {
+  margin-bottom: 15px;
+  
+  display: flex;
+  align-items: center;
+}
+
+/* Large Robot Icon */
+.robotIcon {
+  font-size: 60px;
+  margin-right: 20px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+/* Robot Info */
+.robotName {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.robotCoordinates,
+.robotId {
+  font-size: 18px;
+  color: #bbb;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Bar Charts Section */
+.barCharts {
+  gap: 15px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* Each Bar Chart */
+.barChart {
+  gap: 15px;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Chart Labels */
+.chartLabel {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+}
+
+/* Bar Container */
+.barContainer {
+  width: 250px; /* Set bar width */
+  height: 20px;
+  background: #444;
+  border-radius: 10px;
+
+  overflow: hidden;
+  position: relative;
+}
+
+/* Bar Fill */
+.barFill {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+.weatherInfo {
+  font-size: 20px;
+}
